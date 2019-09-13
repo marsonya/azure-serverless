@@ -1,6 +1,6 @@
 {
   "name": "@nestjs/azure-serverless",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nest - modern, fast, powerful node.js web framework (@azure-serverless)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "publish:next": "npm publish --access public --tag next"
   },
   "devDependencies": {
-    "@nestjs/azure-func-http": "0.2.0",
+    "@nestjs/azure-func-http": "0.2.1",
     "@nestjs/common": "6.5.2",
     "@nestjs/core": "6.5.2",
     "@nestjs/platform-express": "6.5.2",
