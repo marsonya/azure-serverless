@@ -12,7 +12,7 @@
     "publish:next": "npm publish --access public --tag next"
   },
   "devDependencies": {
-    "@nestjs/azure-func-http": "^0.2.0",
+    "@nestjs/azure-func-http": "0.2.0",
     "@nestjs/common": "6.5.2",
     "@nestjs/core": "6.5.2",
     "@nestjs/platform-express": "6.5.2",
@@ -25,7 +25,7 @@
     "prettier": "1.18.2",
     "reflect-metadata": "0.1.12",
     "rxjs": "6.5.2",
-    "ts-loader": "^6.1.0",
+    "ts-loader": "6.1.0",
     "typescript": "3.5.3"
   },
   "dependencies": {
