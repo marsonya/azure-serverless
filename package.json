@@ -1,0 +1,48 @@
+{
+  "name": "@nestjs/azure-serverless",
+  "version": "0.2.0",
+  "description": "Nest - modern, fast, powerful node.js web framework (@azure-serverless)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "prepublish:next": "npm run build",
+    "publish:next": "npm publish --access public --tag next"
+  },
+  "devDependencies": {
+    "@nestjs/azure-func-http": "^0.2.0",
+    "@nestjs/common": "6.5.2",
+    "@nestjs/core": "6.5.2",
+    "@nestjs/platform-express": "6.5.2",
+    "@types/memory-fs": "0.3.2",
+    "@types/node": "7.10.6",
+    "@types/webpack": "4.39.1",
+    "husky": "3.0.0",
+    "jest": "24.8.0",
+    "lint-staged": "9.2.0",
+    "prettier": "1.18.2",
+    "reflect-metadata": "0.1.12",
+    "rxjs": "6.5.2",
+    "ts-loader": "^6.1.0",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "@nestjs/serverless-core": "0.1.1",
+    "memory-fs": "0.4.1",
+    "ts-morph": "4.0.0",
+    "webpack": "4.39.3"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
