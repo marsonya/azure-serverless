@@ -33,7 +33,7 @@
   "dependencies": {
     "@nestjs/serverless-core": "0.2.1",
     "memory-fs": "0.4.1",
-    "ts-morph": "4.0.0",
+    "ts-morph": "4.0.1",
     "webpack": "4.40.2"
   },
   "lint-staged": {
